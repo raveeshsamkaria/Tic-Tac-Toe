@@ -93,11 +93,13 @@ btnRef.forEach((element) => {
       // Display X
       element.innerText = "X";
       element.disabled = true;
+      changeColor();
     } else {
       xTurn = true;
       // Display O
       element.innerText = "O";
       element.disabled = true;
+      changeColor();
     }
     // Increment count on each click
     count += 1;
